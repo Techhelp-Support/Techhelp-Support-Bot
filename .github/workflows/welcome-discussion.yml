@@ -1,0 +1,39 @@
+name: 👋 Willkommen (Discussions)
+
+on:
+  discussion:
+    types: [created]
+
+permissions:
+  discussions: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Willkommensnachricht für neue Discussions
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const discussion = context.payload.discussion;
+            if (!discussion) return;
+
+            const body = [
+              '👋 Danke für deinen Beitrag und willkommen in der **TechHelp Support Bot** Community!',
+              '',
+              'Ein paar kurze Hinweise:',
+              '- 🤝 Bitte bleib freundlich und sachlich (siehe Verhaltenskodex).',
+              '- 🙋 Bei Fragen (Q&A) markiere gerne die hilfreichste Antwort als Lösung.',
+              '- 🐛 Geht es um einen konkreten Fehler oder eine ausgearbeitete Idee? Dann passt ein Issue oft besser.',
+              '',
+              'Gemeinsam besser. Gemeinsam entwickelt. 💙',
+            ].join('\n');
+
+            await github.graphql(
+              `mutation($discussionId: ID!, $body: String!) {
+                addDiscussionComment(input: { discussionId: $discussionId, body: $body }) {
+                  comment { id }
+                }
+              }`,
+              { discussionId: discussion.node_id, body }
+            );

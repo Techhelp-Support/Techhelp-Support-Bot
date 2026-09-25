@@ -32,6 +32,19 @@ Aus einer guten Discussion kann jederzeit ein Issue werden. 👍
 
 ---
 
+## ⚙️ Discussions aktivieren (für Maintainer)
+
+Discussions müssen einmalig im Browser aktiviert werden – das geht nicht per Datei:
+
+1. Repo öffnen → **Settings** (Einstellungen)
+2. Abschnitt **Features** → Häkchen bei **Discussions** setzen
+3. Unter dem Reiter **Discussions** die Kategorien aus der Tabelle oben anlegen
+4. Optional: den [Willkommens-Post](./discussions/WELCOME.md) als Ankündigung posten und anpinnen
+
+Sobald Discussions aktiv sind, werden die vorbereiteten Templates aus `.github/DISCUSSION_TEMPLATE/` automatisch angeboten und neue Beiträge per Workflow begrüßt.
+
+---
+
 ## ✨ Tipps für gute Beiträge
 
 - 🔎 Schau kurz, ob es das Thema schon gibt.

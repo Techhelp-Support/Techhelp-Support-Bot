@@ -1,0 +1,47 @@
+title: "[Frage] "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🙋 Fragen & Hilfe
+
+        Du hast eine Frage zum TechHelp Support Bot? Stell sie hier – die Community und das Team helfen dir gerne weiter! 💙
+
+        > 💡 Tipp: Schau kurz, ob deine Frage schon beantwortet wurde.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Deine Frage
+      description: Was möchtest du wissen?
+      placeholder: |
+        Wie kann ich ...?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      description: Worum geht es?
+      options:
+        - Ticket-System
+        - Moderation
+        - Verifizierung
+        - Dashboard
+        - Weboberfläche
+        - Server-Konfiguration
+        - Discord-Integration
+        - Sonstiges
+    validations:
+      required: false
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: Was hast du schon versucht?
+      description: Damit vermeiden wir Vorschläge, die du bereits ausprobiert hast.
+    validations:
+      required: false

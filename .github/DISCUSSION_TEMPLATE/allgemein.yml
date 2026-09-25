@@ -1,0 +1,19 @@
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💬 Allgemein
+
+        Alles rund um den TechHelp Support Bot, das in keine andere Kategorie passt. Bleib freundlich und sachlich – siehe [Verhaltenskodex](../../CODE_OF_CONDUCT.md). 💙
+
+  - type: textarea
+    id: topic
+    attributes:
+      label: Worum geht's?
+      description: Schreib einfach los.
+      placeholder: |
+        Mir ist aufgefallen, dass ...
+    validations:
+      required: true
