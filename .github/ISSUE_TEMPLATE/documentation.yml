@@ -1,0 +1,41 @@
+name: Documentation
+about: Verbesserung, Ergänzung oder Korrektur der Dokumentation
+title: ""
+labels: ["documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für deinen Beitrag zur Dokumentation. Bitte beschreibe kurz, was verbessert werden soll.
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Dokumentationsproblem
+      description: Beschreibe welches Dokument, Abschnitt oder Beispiel unklar, falsch oder unvollständig ist.
+      placeholder: Die Anleitung zu ... ist unklar, weil ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Vorschlag
+      description: Wie sollte die Dokumentation verbessert werden?
+      placeholder: Bitte Abschnitt X ergänzen und Beispiel Y hinzufügen.
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Betroffene Stelle
+      description: Datei oder Abschnitt, der angepasst werden soll.
+      placeholder: README.md, CONTRIBUTING.md, docs/
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Zusätzliche Hinweise
+      description: Weitere Informationen oder Verweise.
