@@ -1,0 +1,87 @@
+name: 💡 Neue Idee
+description: Schlage eine komplett neue Funktion oder Möglichkeit für den TechHelp Support Bot vor.
+title: "[IDEA] "
+labels:
+  - idea
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Neue Idee
+
+        Danke für deinen Vorschlag für den TechHelp Support Bot! 🚀
+
+        Beschreibe deine Idee bitte möglichst genau. Je besser wir verstehen, was du dir vorstellst, desto einfacher können wir sie prüfen.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: 💡 Deine Idee
+      description: Was möchtest du gerne hinzufügen?
+      placeholder: |
+        Ich wünsche mir eine Funktion, mit der ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🎯 Welches Problem soll gelöst werden?
+      description: Welches Problem oder welchen Bedarf gibt es?
+      placeholder: |
+        Aktuell ist es schwierig, weil ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: ⚙️ Wie sollte die Funktion funktionieren?
+      description: Beschreibe möglichst genau, wie du dir die Umsetzung vorstellst.
+      placeholder: |
+        Die Funktion könnte folgendermaßen funktionieren:
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: example
+    attributes:
+      label: ✨ Beispiel
+      description: Hast du ein Beispiel dafür, wie die Funktion verwendet werden könnte?
+      placeholder: |
+        Beispiel:
+        Ein Server-Administrator könnte ...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 📦 Bereich
+      description: Für welchen Bereich des TechHelp Support Bots ist die Idee gedacht?
+      options:
+        - Ticket-System
+        - Moderation
+        - Verifizierung
+        - Dashboard
+        - Weboberfläche
+        - Benachrichtigungen
+        - Server-Konfiguration
+        - Discord-Integration
+        - Performance
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Weitere Informationen
+      description: Gibt es noch weitere Informationen, Screenshots oder Beispiele?
+      placeholder: |
+        Weitere Informationen ...
+    validations:
+      required: false
