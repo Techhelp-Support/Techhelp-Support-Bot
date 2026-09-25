@@ -1,0 +1,81 @@
+name: Bug report
+about: Melde einen Fehler oder Defekt im TechHelp Support Bot
+title: ""
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du einen Fehler meldest. Bitte fülle die Informationen so vollständig wie möglich aus.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Beschreibe das Problem kurz und verständlich.
+      placeholder: Der Bot ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduktionsschritte
+      description: Wie kann der Fehler reproduziert werden?
+      placeholder: |
+        1. Bot starten
+        2. Befehl ausführen
+        3. Fehler tritt auf
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was sollte passieren?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+      description: Was passiert stattdessen?
+    validations:
+      required: true
+
+  - type: input
+    id: discord-version
+    attributes:
+      label: Discord-Version
+      description: Welche Discord-Version oder Client-Version nutzt du?
+      placeholder: z. B. Stable 250xxx
+
+  - type: input
+    id: bot-version
+    attributes:
+      label: Bot-Version
+      description: Welche Version des Bots nutzt du?
+      placeholder: z. B. v1.2.3
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Umgebung
+      description: Betriebssystem, Node.js-Version oder relevante Details.
+      placeholder: z. B. Windows 11, Node.js 20
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots oder Logs
+      description: Füge Screenshots, Logs oder Fehlermeldungen hinzu.
+      placeholder: Paste logs or screenshots here
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Zusätzliche Informationen
+      description: Weitere Kontextinformationen, Hinweise oder Ideen zur Lösung.
