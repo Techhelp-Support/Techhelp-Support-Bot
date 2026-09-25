@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community Support
+    url: https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions
+    about: Für allgemeine Fragen und Diskussionen bitte GitHub Discussions nutzen.
