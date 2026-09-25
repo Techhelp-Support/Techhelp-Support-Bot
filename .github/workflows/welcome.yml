@@ -1,0 +1,60 @@
+name: 👋 Willkommen
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Willkommensnachricht für neue Beiträge
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const isIssue = !!context.payload.issue;
+            const isFirstTimer = (context.payload.issue || context.payload.pull_request)
+              .author_association === 'FIRST_TIME_CONTRIBUTOR'
+              || (context.payload.issue || context.payload.pull_request)
+              .author_association === 'FIRST_TIMER';
+
+            const number = isIssue
+              ? context.payload.issue.number
+              : context.payload.pull_request.number;
+
+            const issueBody = [
+              '👋 Danke für dein Issue und willkommen in der **TechHelp Support Bot** Community!',
+              '',
+              'Das TechHelp-Team schaut sich deinen Beitrag an. Ein paar Hinweise:',
+              '',
+              '- 💬 Für allgemeine Fragen sind die [Discussions](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions) der beste Ort.',
+              '- 🔎 Bitte prüfe, ob es bereits ein ähnliches Issue gibt.',
+              '- 👍 Reagiere gerne auf andere Issues, um zu zeigen, was dir wichtig ist.',
+              '',
+              'Gemeinsam besser. Gemeinsam entwickelt. 💙',
+            ].join('\n');
+
+            const prBody = [
+              '🎉 Danke für deinen Pull Request und willkommen in der **TechHelp Support Bot** Community!',
+              '',
+              'Ein Maintainer wird deine Änderungen prüfen. Bitte stelle sicher, dass:',
+              '',
+              '- ✅ die Checkliste im PR-Template ausgefüllt ist,',
+              '- 🔐 keine Zugangsdaten oder Tokens enthalten sind,',
+              '- 📚 die Dokumentation bei Bedarf angepasst wurde.',
+              '',
+              'Wir melden uns so schnell wie möglich. 💙',
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: number,
+              body: isIssue ? issueBody : prBody,
+            });

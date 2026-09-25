@@ -1,8 +1,37 @@
-# 💡 TechHelp Support Bot – Ideen & Vorschläge
+<div align="center">
 
-Willkommen im **TechHelp Support Bot Ideen-Repository**! 🚀
+# 💡 TechHelp Support Bot – Community & Ideen
 
-Hier können Mitglieder der Community, Entwickler und Server-Betreiber ihre **Ideen, Verbesserungsvorschläge und Wünsche** für den [TechHelp Support Bot](https://bot.techhelp-support.de/) einreichen.
+Willkommen im **TechHelp Support Bot Community-Repository**! 🚀
+
+Der zentrale Ort für **Ideen, Verbesserungen, Fehlerberichte und den Austausch** rund um den [TechHelp Support Bot](https://bot.techhelp-support.de/).
+
+[![Website](https://img.shields.io/badge/🌐_Website-bot.techhelp--support.de-5865F2?style=for-the-badge)](https://bot.techhelp-support.de/)
+[![Support](https://img.shields.io/badge/🛟_Support-Hilfe_holen-2ecc71?style=for-the-badge)](https://bot.techhelp-support.de/support/)
+[![Discussions](https://img.shields.io/badge/💬_Discussions-mitreden-d4c5f9?style=for-the-badge)](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions)
+
+![Issues](https://img.shields.io/github/issues/Techhelp-Support/Techhelp-Support-Bot?style=flat-square&label=Offene%20Issues)
+![PRs](https://img.shields.io/github/issues-pr/Techhelp-Support/Techhelp-Support-Bot?style=flat-square&label=Pull%20Requests)
+![Contributors](https://img.shields.io/github/contributors/Techhelp-Support/Techhelp-Support-Bot?style=flat-square&label=Mitwirkende)
+![Last commit](https://img.shields.io/github/last-commit/Techhelp-Support/Techhelp-Support-Bot?style=flat-square&label=Letzter%20Commit)
+
+</div>
+
+---
+
+## 🧭 Schnellzugriff
+
+| Ich möchte ... | Los geht's |
+| --- | --- |
+| 💡 eine Idee einreichen | [Neues Issue → 💡 Neue Idee](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
+| 🛠️ eine Verbesserung vorschlagen | [Neues Issue → 🛠️ Verbesserung](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
+| 🐛 einen Fehler melden | [Neues Issue → 🐛 Fehler melden](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
+| 💬 diskutieren / Fragen stellen | [GitHub Discussions](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions) |
+| 🤝 mitwirken | [CONTRIBUTING.md](./CONTRIBUTING.md) |
+| 🛟 Support brauchen | [SUPPORT.md](./SUPPORT.md) |
+| 🔐 eine Sicherheitslücke melden | [SECURITY.md](./SECURITY.md) |
+
+---
 
 Unser Ziel ist es, den TechHelp Support Bot gemeinsam weiterzuentwickeln und immer besser auf die Bedürfnisse unserer Nutzer anzupassen.
 
@@ -142,6 +171,25 @@ Der TechHelp Support Bot soll sich gemeinsam mit seiner Community weiterentwicke
 Dein Vorschlag kann dabei helfen, neue Funktionen zu entwickeln, bestehende Systeme zu verbessern oder Probleme zu lösen.
 
 **Jede sinnvolle Idee ist willkommen.** 💙
+
+---
+
+## 🤝 Community & Mitwirken
+
+Dieses Repository lebt von seiner Community. Hier findest du alles, um mitzumachen:
+
+| Dokument | Inhalt |
+| --- | --- |
+| 🤝 [CONTRIBUTING.md](./CONTRIBUTING.md) | Wie du beiträgst – Ideen, Fehler, Code |
+| 🌟 [COMMUNITY.md](./COMMUNITY.md) | Community-Prinzipien und Rollen |
+| 💬 [docs/DISCUSSIONS.md](./docs/DISCUSSIONS.md) | Guide für GitHub Discussions |
+| 🏛️ [GOVERNANCE.md](./GOVERNANCE.md) | Wie Entscheidungen getroffen werden |
+| 🛟 [SUPPORT.md](./SUPPORT.md) | Wo du Hilfe bekommst |
+| 📜 [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) | Verhaltenskodex |
+| 🗺️ [ROADMAP.md](./ROADMAP.md) | Was als Nächstes kommt |
+| 📓 [CHANGELOG.md](./CHANGELOG.md) | Was sich geändert hat |
+
+Egal ob große Idee, kleiner Verbesserungsvorschlag oder ein Tippfehler in der Doku – **jeder Beitrag zählt.** 💙
 
 ---
 

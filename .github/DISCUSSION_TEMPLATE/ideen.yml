@@ -1,0 +1,28 @@
+title: "[Idee] "
+labels:
+  - idea
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Ideen-Austausch
+
+        Hier kannst du deine Idee erstmal locker mit der Community diskutieren, bevor daraus ein Issue wird. 🚀
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Deine Idee
+      description: Was schwebt dir vor?
+      placeholder: |
+        Ich hätte da eine Idee ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Hintergrund
+      description: Warum wäre das cool oder hilfreich?
+    validations:
+      required: false

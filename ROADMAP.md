@@ -11,29 +11,31 @@ This roadmap outlines the planned direction for the TechHelp Support Bot communi
 ## Planned
 
 ### Q1
-- Finalize community repository structure
-- Add missing issue templates and documentation flows
-- Define labels, project board, and triage workflow
-- Improve contribution and moderation guidelines
+- Set up GitHub Discussions categories (Announcements, Ideas, Q&A, Polls, Showcase, General)
+- Define a public project board and triage workflow
+- Improve moderation and contribution guidelines
 
 ### Q2
-- Launch GitHub Discussions categories
 - Enable community voting and feedback mechanisms
 - Improve issue tracking and prioritization
-- Introduce automation for project updates and notifications
+- Expand automation for project updates and notifications
+- Contributor recognition workflow
 
 ## In Progress
 
 - Community onboarding and documentation
 - Repository governance and health checks
 - GitHub project board organization
-- Basic issue automation workflow
 
 ## Completed
 
-- Project README created
-- Contributing guide created
-- Idea and improvement issue templates created
+- Project README with quick-links and community section
+- Contributing, community, governance, and support guides
+- Idea, improvement, bug, and documentation issue templates (GitHub form format)
+- Pull request template
+- Automation: welcome workflow, auto-labeler, and label sync
+- Central label definition
+- Discussions guide and idea discussion template
 - Initial repository documentation structure established
 
 ## Future Ideas

@@ -1,81 +1,112 @@
-name: Bug report
-about: Melde einen Fehler oder Defekt im TechHelp Support Bot
-title: ""
-labels: ["bug"]
-assignees: []
+name: 🐛 Fehler melden
+description: Melde einen Fehler oder Defekt im TechHelp Support Bot.
+title: "[BUG] "
+labels:
+  - bug
 body:
   - type: markdown
     attributes:
       value: |
-        Danke, dass du einen Fehler meldest. Bitte fülle die Informationen so vollständig wie möglich aus.
+        ## 🐛 Fehler melden
+
+        Danke, dass du einen Fehler meldest! 🙏
+
+        Bitte fülle die folgenden Informationen so vollständig wie möglich aus. Je genauer dein Bericht ist, desto schneller können wir das Problem finden und beheben.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: ✅ Vorab-Checks
+      description: Bitte bestätige die folgenden Punkte, bevor du fortfährst.
+      options:
+        - label: Ich habe nach ähnlichen Issues gesucht und keinen passenden Bericht gefunden.
+          required: true
+        - label: Ich habe keine sensiblen Daten (Tokens, Passwörter, API-Keys) in diesem Bericht enthalten.
+          required: true
 
   - type: textarea
     id: problem
     attributes:
-      label: Problem
+      label: 🔴 Problem
       description: Beschreibe das Problem kurz und verständlich.
-      placeholder: Der Bot ...
+      placeholder: |
+        Der Bot ...
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: Reproduktionsschritte
+      label: 🔁 Reproduktionsschritte
       description: Wie kann der Fehler reproduziert werden?
       placeholder: |
-        1. Bot starten
-        2. Befehl ausführen
-        3. Fehler tritt auf
+        1. Dashboard öffnen
+        2. Server auswählen
+        3. Ticket-Konfiguration öffnen
+        4. Einstellung speichern
+        5. Fehler tritt auf
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: Erwartetes Verhalten
-      description: Was sollte passieren?
+      label: ✅ Erwartetes Verhalten
+      description: Was sollte eigentlich passieren?
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: Tatsächliches Verhalten
+      label: ❌ Tatsächliches Verhalten
       description: Was passiert stattdessen?
     validations:
       required: true
 
-  - type: input
-    id: discord-version
+  - type: dropdown
+    id: area
     attributes:
-      label: Discord-Version
-      description: Welche Discord-Version oder Client-Version nutzt du?
-      placeholder: z. B. Stable 250xxx
+      label: 📦 Bereich
+      description: In welchem Bereich tritt der Fehler auf?
+      options:
+        - Ticket-System
+        - Moderation
+        - Verifizierung
+        - Dashboard
+        - Weboberfläche
+        - Benachrichtigungen
+        - Server-Konfiguration
+        - Discord-Integration
+        - Performance
+        - Sonstiges
+    validations:
+      required: true
 
   - type: input
     id: bot-version
     attributes:
-      label: Bot-Version
+      label: 🤖 Bot-Version
       description: Welche Version des Bots nutzt du?
-      placeholder: z. B. v1.2.3
+      placeholder: "z. B. v1.2.3"
 
-  - type: textarea
+  - type: input
     id: environment
     attributes:
-      label: Umgebung
-      description: Betriebssystem, Node.js-Version oder relevante Details.
-      placeholder: z. B. Windows 11, Node.js 20
+      label: 💻 Umgebung
+      description: Browser, Betriebssystem oder Discord-Client-Version.
+      placeholder: "z. B. Chrome 120, Windows 11, Discord Stable"
 
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots oder Logs
-      description: Füge Screenshots, Logs oder Fehlermeldungen hinzu.
-      placeholder: Paste logs or screenshots here
+      label: 📎 Screenshots oder Logs
+      description: Füge Screenshots, Logs oder Fehlermeldungen hinzu. Bitte keine sensiblen Daten teilen.
+      placeholder: |
+        Screenshots oder Logs hier einfügen ...
 
   - type: textarea
     id: additional
     attributes:
-      label: Zusätzliche Informationen
+      label: 💬 Zusätzliche Informationen
       description: Weitere Kontextinformationen, Hinweise oder Ideen zur Lösung.

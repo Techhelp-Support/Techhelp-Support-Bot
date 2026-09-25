@@ -1,41 +1,47 @@
-name: Documentation
-about: Verbesserung, Ergänzung oder Korrektur der Dokumentation
-title: ""
-labels: ["documentation"]
-assignees: []
+name: 📚 Dokumentation
+description: Verbesserung, Ergänzung oder Korrektur der Dokumentation.
+title: "[DOCS] "
+labels:
+  - documentation
 body:
   - type: markdown
     attributes:
       value: |
-        Danke für deinen Beitrag zur Dokumentation. Bitte beschreibe kurz, was verbessert werden soll.
+        ## 📚 Dokumentation
+
+        Danke für deinen Beitrag zur Dokumentation! 💙
+
+        Gute Dokumentation hilft der ganzen Community. Bitte beschreibe kurz, was verbessert werden soll.
 
   - type: textarea
     id: issue
     attributes:
-      label: Dokumentationsproblem
-      description: Beschreibe welches Dokument, Abschnitt oder Beispiel unklar, falsch oder unvollständig ist.
-      placeholder: Die Anleitung zu ... ist unklar, weil ...
+      label: 📄 Dokumentationsproblem
+      description: Beschreibe, welches Dokument, welcher Abschnitt oder welches Beispiel unklar, falsch oder unvollständig ist.
+      placeholder: |
+        Die Anleitung zu ... ist unklar, weil ...
     validations:
       required: true
 
   - type: textarea
     id: proposed
     attributes:
-      label: Vorschlag
+      label: 💡 Vorschlag
       description: Wie sollte die Dokumentation verbessert werden?
-      placeholder: Bitte Abschnitt X ergänzen und Beispiel Y hinzufügen.
+      placeholder: |
+        Bitte Abschnitt X ergänzen und Beispiel Y hinzufügen.
     validations:
       required: true
 
   - type: input
     id: location
     attributes:
-      label: Betroffene Stelle
+      label: 📍 Betroffene Stelle
       description: Datei oder Abschnitt, der angepasst werden soll.
-      placeholder: README.md, CONTRIBUTING.md, docs/
+      placeholder: "z. B. README.md, CONTRIBUTING.md, docs/"
 
   - type: textarea
     id: additional
     attributes:
-      label: Zusätzliche Hinweise
+      label: 📎 Zusätzliche Hinweise
       description: Weitere Informationen oder Verweise.

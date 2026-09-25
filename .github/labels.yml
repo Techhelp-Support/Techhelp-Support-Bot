@@ -1,0 +1,67 @@
+# Label-Definition für das TechHelp Support Bot Community-Repository
+# Wird über den Workflow "label-sync.yml" automatisch synchronisiert.
+
+# --- Status-Labels (siehe README) ---
+- name: idea
+  color: "0e8a16"
+  description: "💡 Neue Idee"
+- name: review
+  color: "fbca04"
+  description: "🔍 Wird vom Team geprüft"
+- name: discussion
+  color: "d4c5f9"
+  description: "💬 Weitere Diskussion erforderlich"
+- name: planned
+  color: "1d76db"
+  description: "📋 Für eine zukünftige Version vorgesehen"
+- name: in-progress
+  color: "5319e7"
+  description: "🛠️ Entwicklung läuft"
+- name: implemented
+  color: "0e8a16"
+  description: "✅ Bereits umgesetzt"
+- name: declined
+  color: "b60205"
+  description: "❌ Wird aktuell nicht umgesetzt"
+- name: duplicate
+  color: "cfd3d7"
+  description: "🔁 Bereits vorhandene Idee"
+
+# --- Typ-Labels ---
+- name: improvement
+  color: "a2eeef"
+  description: "🛠️ Verbesserung einer bestehenden Funktion"
+- name: bug
+  color: "d73a4a"
+  description: "🐛 Etwas funktioniert nicht wie erwartet"
+- name: documentation
+  color: "0075ca"
+  description: "📚 Verbesserung oder Ergänzung der Dokumentation"
+- name: question
+  color: "d876e3"
+  description: "❓ Weitere Informationen werden benötigt"
+
+# --- Community-Labels ---
+- name: good first issue
+  color: "7057ff"
+  description: "🌱 Guter Einstiegspunkt für neue Beitragende"
+- name: help wanted
+  color: "008672"
+  description: "🙌 Unterstützung aus der Community erwünscht"
+
+# --- Bereich-Labels ---
+- name: "area: tickets"
+  color: "c5def5"
+  description: "🎫 Ticket-System"
+- name: "area: moderation"
+  color: "c5def5"
+  description: "🛡️ Moderationsfunktionen"
+- name: "area: verification"
+  color: "c5def5"
+  description: "🔐 Verifizierungs-System"
+- name: "area: dashboard"
+  color: "c5def5"
+  description: "📊 Dashboard"
+- name: "area: performance"
+  color: "c5def5"
+  description: "⚡ Performance"
