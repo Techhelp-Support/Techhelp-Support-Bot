@@ -40,7 +40,7 @@ Alternativ kannst du deine Idee auch einfach als [Issue](https://github.com/Tech
 * [ ] Server Builder
 * [ ] Bessere Verbindung 
 * [ ] Verbesserung am Musik Bot
-* [ ]
+* [ ] einstellen das wenn ein supporter das ticket übernnomen hat trozdem reinschreiben kann aber halt nur der supporter und der ersteller 
 * [ ]
 * [ ]
 * [ ]
