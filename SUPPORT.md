@@ -41,7 +41,7 @@ Der TechHelp Support Bot wird mit viel Herzblut entwickelt. Wenn du das Team unt
 | 🛟 Support | https://bot.techhelp-support.de/support/ |
 | 📰 News | https://bot.techhelp-support.de/techhelp-support-news-2/ |
 | 💬 Discussions | https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions |
-| ☕ Buy us a coffee | https://buymeacoffee.com/techhelp.support |
+| ☕ Buy developers a coffee | https://buymeacoffee.com/techhelp.support |
 
 ---
 
@@ -82,7 +82,7 @@ The TechHelp Support Bot is developed with a lot of passion. If you'd like to su
 | 🛟 Support | https://bot.techhelp-support.de/support/ |
 | 📰 News | https://bot.techhelp-support.de/techhelp-support-news-2/ |
 | 💬 Discussions | https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions |
-| ☕ Buy us a coffee | https://buymeacoffee.com/techhelp.support |
+| ☕ Buy developers a coffee | https://buymeacoffee.com/techhelp.support |
 
 ---
 
