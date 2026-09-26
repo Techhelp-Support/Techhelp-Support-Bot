@@ -41,9 +41,9 @@ Alternativ kannst du deine Idee auch einfach als [Issue](https://github.com/Tech
 * [ ] Bessere Verbindung 
 * [ ] Verbesserung am Musik Bot
 * [ ] einstellen das wenn ein supporter das ticket übernnomen hat trozdem reinschreiben kann aber halt nur der supporter und der ersteller 
-* [ ]
-* [ ]
-* [ ]
+* [ ] .no_news command
+* [ ] .nextcloud_give command 
+* [ ] .bot_server command
 * [ ]
 
 ### 🐛 Bekannte Kleinigkeiten
