@@ -54,6 +54,9 @@
 - name: poll
   color: "bfdadc"
   description: "🗳️ Umfrage / Poll"
+- name: team-application
+  color: "c2e0c6"
+  description: "🧑‍💼 Team-Bewerbung / Team application"
 
 # --- Workflow-Labels ---
 - name: stale
