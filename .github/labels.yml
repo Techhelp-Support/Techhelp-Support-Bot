@@ -44,10 +44,27 @@
 # --- Community-Labels ---
 - name: good first issue
   color: "7057ff"
-  description: "🌱 Guter Einstiegspunkt für neue Beitragende"
+  description: "🌱 Guter Einstiegspunkt für neue Beitragende / Good entry point for newcomers"
 - name: help wanted
   color: "008672"
-  description: "🙌 Unterstützung aus der Community erwünscht"
+  description: "🙌 Unterstützung erwünscht / Community help welcome"
+- name: showcase
+  color: "fef2c0"
+  description: "🎉 Community-Showcase"
+- name: poll
+  color: "bfdadc"
+  description: "🗳️ Umfrage / Poll"
+
+# --- Workflow-Labels ---
+- name: stale
+  color: "ededed"
+  description: "🧹 Länger inaktiv / Inactive for a while"
+- name: pinned
+  color: "0e8a16"
+  description: "📌 Vom Stale-Bot ausgenommen / Exempt from the stale bot"
+- name: security
+  color: "b60205"
+  description: "🔐 Sicherheitsrelevant / Security related"
 
 # --- Bereich-Labels ---
 - name: "area: tickets"

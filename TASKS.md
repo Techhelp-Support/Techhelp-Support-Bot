@@ -62,8 +62,36 @@ Diese Datei dient als zentrale Aufgabenliste für den Aufbau des
 ## 💬 Discussions
 
 * [x] `docs/DISCUSSIONS.md` – Community-Guide
-* [x] `.github/DISCUSSION_TEMPLATE/ideen.yml` – Ideen-Template
+* [x] `.github/DISCUSSION_TEMPLATE/` – Ideen, Fragen, Showcase, Allgemein, Umfrage
 * [ ] Discussion-Kategorien in GitHub-Einstellungen anlegen *(manueller Schritt)*
+
+---
+
+# 🌐 Phase 5 – Community-Ausbau
+
+## 📄 Dokumente
+
+* [x] `FAQ.md` – häufige Fragen (zweisprachig)
+* [x] `CONTRIBUTORS.md` + `.all-contributorsrc` – Anerkennung von Beiträgen
+* [x] `docs/ONBOARDING.md` – Einstieg für neue Mitwirkende
+* [x] `docs/VOTING.md` – Feature-Voting-Guide
+* [x] `docs/discussions/INTRODUCE.md` – Vorstellungs-Post-Vorlage
+
+## 🤖 Automation
+
+* [x] `stale.yml` – alte Issues & PRs freundlich aufräumen
+* [x] `thanks-merged.yml` – Dank bei gemergtem PR
+* [x] `labels.yml` – um Community-/Workflow-Labels erweitert
+
+## 🌍 Zweisprachigkeit
+
+* [x] Alle Docs und Templates auf Deutsch **und** Englisch
+
+## ⚙️ Manuelle Schritte (GitHub)
+
+* [ ] Discussions aktivieren und Kategorien anlegen
+* [ ] All-Contributors-Bot / GitHub App installieren
+* [ ] Labels via `label-sync.yml` synchronisieren (läuft automatisch bei Push)
 
 ---
 
@@ -78,4 +106,8 @@ Diese Datei dient als zentrale Aufgabenliste für den Aufbau des
 * [x] Phase 2 abgeschlossen
 * [x] Phase 3 abgeschlossen
 * [x] Phase 4 abgeschlossen
+
+**Community**
+
+* [x] Phase 5 abgeschlossen
 

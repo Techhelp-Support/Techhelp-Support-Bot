@@ -7,32 +7,29 @@ body:
       value: |
         ## 🎉 Showcase
 
-        Zeig der Community, was du mit dem TechHelp Support Bot gebaut oder eingerichtet hast! Setups, coole Konfigurationen, Erweiterungen – alles willkommen. 🚀
+        🇩🇪 Zeig der Community, was du mit dem Bot gebaut oder eingerichtet hast!
+        🇬🇧 Show the community what you've built or set up with the bot!
 
   - type: textarea
     id: what
     attributes:
-      label: Was hast du gebaut?
-      description: Beschreibe kurz, was du zeigen möchtest.
-      placeholder: |
-        Ich habe den Bot so eingerichtet, dass ...
+      label: Was hast du gebaut? / What did you build?
+      description: Beschreibe kurz, was du zeigen möchtest. / Briefly describe what you want to show.
     validations:
       required: true
 
   - type: textarea
     id: how
     attributes:
-      label: Wie funktioniert es?
-      description: Wie hast du es umgesetzt? Gerne mit Details.
+      label: Wie funktioniert es? / How does it work?
+      description: Gerne mit Details. / Details welcome.
     validations:
       required: false
 
   - type: textarea
     id: media
     attributes:
-      label: Screenshots / Medien
-      description: Zeig es uns! Screenshots oder Videos sagen mehr als tausend Worte.
-      placeholder: |
-        Screenshots hier einfügen ...
+      label: Screenshots / Medien / Media
+      description: Zeig es uns! / Show us!
     validations:
       required: false

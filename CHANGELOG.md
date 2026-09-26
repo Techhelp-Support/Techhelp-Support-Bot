@@ -15,11 +15,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Central label definition (`.github/labels.yml`)
 - GitHub Discussions guide (`docs/DISCUSSIONS.md`) and idea discussion template
 - README quick-links, badges, and a community section
+- Bilingual German + English content across all docs and templates
+- `FAQ.md`, `docs/ONBOARDING.md`, and `docs/VOTING.md`
+- Contributor recognition via All Contributors (`CONTRIBUTORS.md`, `.all-contributorsrc`)
+- Discussion templates for Q&A, showcase, general, and polls
+- Welcome and introduction post templates for Discussions
+- Automation: stale bot (`stale.yml`) and thanks-on-merge (`thanks-merged.yml`)
+- Discussion welcome workflow (`welcome-discussion.yml`)
+- Community and workflow labels (showcase, poll, stale, pinned, security)
 
 ### Changed
 - Improved project structure for community collaboration
-- Rebuilt README with navigation and community overview
+- Rebuilt README with bilingual navigation and community overview
 - Extended issue template chooser with support and discussion links
+- Expanded label set for finer triage
 
 ### Fixed
 - Bug report and documentation issue templates now use the correct GitHub form format (removed invalid `about` field that broke rendering)

@@ -2,13 +2,13 @@ blank_issues_enabled: false
 contact_links:
   - name: 💬 Community Discussions
     url: https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions
-    about: Für allgemeine Fragen, Ideen-Austausch und Diskussionen bitte GitHub Discussions nutzen.
-  - name: 🛟 Support & Hilfe
+    about: Für allgemeine Fragen und Ideen. / For general questions and ideas.
+  - name: 🛟 Support & Hilfe / Support & Help
     url: https://bot.techhelp-support.de/support/
-    about: Du brauchst direkten Support oder Hilfe bei der Einrichtung? Hier entlang.
+    about: Direkter Support vom Team. / Direct support from the team.
   - name: 🌐 Website
     url: https://bot.techhelp-support.de/
-    about: Alle Infos rund um den TechHelp Support Bot.
+    about: Alle Infos zum Bot. / All info about the bot.
   - name: 📰 News & Updates
     url: https://bot.techhelp-support.de/techhelp-support-news-2/
-    about: Bleib auf dem Laufenden über neue Funktionen und Ankündigungen.
+    about: Neue Funktionen und Ankündigungen. / New features and announcements.

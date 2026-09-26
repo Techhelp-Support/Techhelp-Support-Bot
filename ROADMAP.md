@@ -29,13 +29,17 @@ This roadmap outlines the planned direction for the TechHelp Support Bot communi
 
 ## Completed
 
+- Bilingual (German + English) documentation and templates
 - Project README with quick-links and community section
 - Contributing, community, governance, and support guides
+- Onboarding guide, FAQ, and feature-voting guide
+- Contributor recognition setup (All Contributors)
 - Idea, improvement, bug, and documentation issue templates (GitHub form format)
+- Discussion templates (ideas, Q&A, showcase, general, poll)
 - Pull request template
-- Automation: welcome workflow, auto-labeler, and label sync
+- Automation: welcome workflow, auto-labeler, label sync, stale bot, thanks-on-merge
 - Central label definition
-- Discussions guide and idea discussion template
+- Discussions guide and welcome/introduction post templates
 - Initial repository documentation structure established
 
 ## Future Ideas

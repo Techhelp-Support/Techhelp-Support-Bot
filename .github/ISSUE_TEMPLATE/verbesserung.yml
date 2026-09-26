@@ -1,5 +1,5 @@
-name: 🛠️ Verbesserung
-description: Schlage eine Verbesserung für eine bereits vorhandene Funktion vor.
+name: 🛠️ Verbesserung / Improvement
+description: Schlage eine Verbesserung für eine bestehende Funktion vor. / Suggest an improvement to an existing feature.
 title: "[IMPROVEMENT] "
 labels:
   - improvement
@@ -7,91 +7,74 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🛠️ Verbesserung
+        ## 🛠️ Verbesserung / Improvement
 
-        Danke für deinen Verbesserungsvorschlag! 🚀
-
-        Dieses Template ist für Funktionen gedacht, die bereits im TechHelp Support Bot existieren und verbessert werden könnten.
+        🇩🇪 Danke für deinen Verbesserungsvorschlag! Dieses Template ist für bereits vorhandene Funktionen.
+        🇬🇧 Thanks for your improvement suggestion! This template is for features that already exist.
 
   - type: textarea
     id: current
     attributes:
-      label: 📌 Aktuelles Verhalten
-      description: Wie funktioniert die Funktion aktuell?
-      placeholder: |
-        Aktuell funktioniert die Funktion so, dass ...
+      label: 📌 Aktuelles Verhalten / Current behavior
+      description: Wie funktioniert die Funktion aktuell? / How does the feature currently work?
     validations:
       required: true
 
   - type: textarea
     id: problem
     attributes:
-      label: ❗ Was könnte verbessert werden?
-      description: Was stört dich an der aktuellen Umsetzung?
-      placeholder: |
-        Die aktuelle Umsetzung könnte verbessert werden, weil ...
+      label: ❗ Was könnte verbessert werden? / What could be improved?
+      description: Was stört dich an der aktuellen Umsetzung? / What bothers you about the current implementation?
     validations:
       required: true
 
   - type: textarea
     id: suggestion
     attributes:
-      label: 💡 Verbesserungsvorschlag
-      description: Wie sollte die Funktion deiner Meinung nach verbessert werden?
-      placeholder: |
-        Ich würde vorschlagen, dass ...
+      label: 💡 Verbesserungsvorschlag / Suggested improvement
+      description: Wie sollte die Funktion verbessert werden? / How should the feature be improved?
     validations:
       required: true
 
   - type: textarea
     id: benefit
     attributes:
-      label: 🎯 Vorteil der Verbesserung
-      description: Welchen Vorteil hätte die Änderung?
-      placeholder: |
-        Dadurch könnten Nutzer ...
+      label: 🎯 Vorteil / Benefit
+      description: Welchen Vorteil hätte die Änderung? / What would be the benefit of the change?
     validations:
       required: false
 
   - type: dropdown
     id: area
     attributes:
-      label: 📦 Bereich
-      description: Welcher Bereich soll verbessert werden?
+      label: 📦 Bereich / Area
+      description: Welcher Bereich soll verbessert werden? / Which area should be improved?
       options:
-        - Ticket-System
+        - Ticket-System / Tickets
         - Moderation
-        - Verifizierung
+        - Verifizierung / Verification
         - Dashboard
-        - Weboberfläche
-        - Benachrichtigungen
-        - Server-Konfiguration
-        - Discord-Integration
+        - Weboberfläche / Web interface
+        - Benachrichtigungen / Notifications
+        - Server-Konfiguration / Server configuration
+        - Discord-Integration / Discord integration
         - Performance
-        - Sonstiges
+        - Sonstiges / Other
     validations:
       required: true
 
   - type: textarea
     id: example
     attributes:
-      label: ✨ Beispiel
-      description: Zeige uns gerne anhand eines Beispiels, wie es besser funktionieren könnte.
-      placeholder: |
-        Vorher:
-        ...
-
-        Nachher:
-        ...
+      label: ✨ Beispiel / Example
+      description: Zeig uns Vorher/Nachher, wenn möglich. / Show us before/after if possible.
     validations:
       required: false
 
   - type: textarea
     id: additional
     attributes:
-      label: 📎 Weitere Informationen
-      description: Gibt es noch Screenshots, Videos oder weitere Informationen?
-      placeholder: |
-        Weitere Informationen ...
+      label: 📎 Weitere Informationen / Additional information
+      description: Screenshots, Videos oder weitere Details. / Screenshots, videos, or more details.
     validations:
       required: false

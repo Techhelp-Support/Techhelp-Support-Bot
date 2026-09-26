@@ -1,28 +1,27 @@
-title: "[Idee] "
+title: "[Idee / Idea] "
 labels:
   - idea
 body:
   - type: markdown
     attributes:
       value: |
-        ## 💡 Ideen-Austausch
+        ## 💡 Ideen-Austausch / Idea exchange
 
-        Hier kannst du deine Idee erstmal locker mit der Community diskutieren, bevor daraus ein Issue wird. 🚀
+        🇩🇪 Diskutiere deine Idee locker mit der Community, bevor daraus ein Issue wird.
+        🇬🇧 Discuss your idea casually with the community before it becomes an issue.
 
   - type: textarea
     id: idea
     attributes:
-      label: Deine Idee
-      description: Was schwebt dir vor?
-      placeholder: |
-        Ich hätte da eine Idee ...
+      label: Deine Idee / Your idea
+      description: Was schwebt dir vor? / What do you have in mind?
     validations:
       required: true
 
   - type: textarea
     id: context
     attributes:
-      label: Hintergrund
-      description: Warum wäre das cool oder hilfreich?
+      label: Hintergrund / Background
+      description: Warum wäre das hilfreich? / Why would this be helpful?
     validations:
       required: false

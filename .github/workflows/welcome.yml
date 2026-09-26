@@ -29,27 +29,37 @@ jobs:
               : context.payload.pull_request.number;
 
             const issueBody = [
-              '👋 Danke für dein Issue und willkommen in der **TechHelp Support Bot** Community!',
+              '👋 **🇩🇪 Deutsch**',
               '',
-              'Das TechHelp-Team schaut sich deinen Beitrag an. Ein paar Hinweise:',
-              '',
+              'Danke für dein Issue und willkommen in der **TechHelp Support Bot** Community! Das Team schaut es sich an.',
               '- 💬 Für allgemeine Fragen sind die [Discussions](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions) der beste Ort.',
               '- 🔎 Bitte prüfe, ob es bereits ein ähnliches Issue gibt.',
               '- 👍 Reagiere gerne auf andere Issues, um zu zeigen, was dir wichtig ist.',
               '',
-              'Gemeinsam besser. Gemeinsam entwickelt. 💙',
+              '---',
+              '',
+              '🇬🇧 **English**',
+              '',
+              'Thanks for your issue and welcome to the **TechHelp Support Bot** community! The team will take a look.',
+              '- 💬 For general questions, [Discussions](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions) are the best place.',
+              '- 🔎 Please check whether a similar issue already exists.',
+              '- 👍 Feel free to react to other issues to show what matters to you.',
+              '',
+              'Gemeinsam besser. Gemeinsam entwickelt. / Better together. Built together. 💙',
             ].join('\n');
 
             const prBody = [
-              '🎉 Danke für deinen Pull Request und willkommen in der **TechHelp Support Bot** Community!',
+              '🎉 **🇩🇪 Deutsch**',
               '',
-              'Ein Maintainer wird deine Änderungen prüfen. Bitte stelle sicher, dass:',
+              'Danke für deinen Pull Request und willkommen in der Community! Ein Maintainer prüft deine Änderungen. Bitte stelle sicher, dass die Checkliste im PR-Template ausgefüllt ist, keine Zugangsdaten enthalten sind und die Doku bei Bedarf angepasst wurde.',
               '',
-              '- ✅ die Checkliste im PR-Template ausgefüllt ist,',
-              '- 🔐 keine Zugangsdaten oder Tokens enthalten sind,',
-              '- 📚 die Dokumentation bei Bedarf angepasst wurde.',
+              '---',
               '',
-              'Wir melden uns so schnell wie möglich. 💙',
+              '🇬🇧 **English**',
+              '',
+              'Thanks for your pull request and welcome to the community! A maintainer will review your changes. Please make sure the PR template checklist is complete, no credentials are included, and docs were updated if needed.',
+              '',
+              'Wir melden uns so schnell wie möglich. / We\'ll get back to you as soon as possible. 💙',
             ].join('\n');
 
             await github.rest.issues.createComment({
