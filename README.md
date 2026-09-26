@@ -31,6 +31,7 @@ Der zentrale Ort für **Ideen, Verbesserungen, Fehlerberichte und den Austausch*
 | 💡 eine Idee einreichen | [Neues Issue → 💡 Neue Idee](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
 | 🛠️ eine Verbesserung vorschlagen | [Neues Issue → 🛠️ Verbesserung](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
 | 🐛 einen Fehler melden | [Neues Issue → 🐛 Fehler melden](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
+| 💡 in die Ideenliste schreiben | [IDEENLISTE.md](./IDEENLISTE.md) (forken & mitschreiben) |
 | 💬 diskutieren / Fragen stellen | [GitHub Discussions](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions) |
 | 🧑‍💼 dem Team beitreten | [Team-Bewerbung](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new?template=team-bewerbung.yml) |
 | 📋 einen Auftrag anfragen | [Auftrag anfragen](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new?template=auftrag.yml) |
@@ -105,6 +106,8 @@ Bitte reiche keine Inhalte ein, die gegen die GitHub-Regeln verstoßen, andere P
 | 🌱 [docs/ONBOARDING.md](./docs/ONBOARDING.md) | Einstieg für neue Mitwirkende |
 | 🧑‍💼 [docs/TEAM.md](./docs/TEAM.md) | Team-Rollen und Bewerbung |
 | 📋 [docs/AUFTRAEGE.md](./docs/AUFTRAEGE.md) | Aufträge anfragen (Websites, Bots, ...) |
+| 💡 [IDEENLISTE.md](./IDEENLISTE.md) | Offene Ideenliste – zum Mitschreiben |
+| 🍴 [docs/FORK.md](./docs/FORK.md) | Forken & mitmachen (Anleitung) |
 | 🌟 [COMMUNITY.md](./COMMUNITY.md) | Community-Prinzipien und Rollen |
 | 🙌 [CONTRIBUTORS.md](./CONTRIBUTORS.md) | Anerkennung aller Mitwirkenden |
 | 💬 [docs/DISCUSSIONS.md](./docs/DISCUSSIONS.md) | Guide für GitHub Discussions |
@@ -145,6 +148,7 @@ This is the central place for **ideas, improvements, bug reports, and discussion
 | 💡 submit an idea | [New issue → 💡 New idea](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
 | 🛠️ suggest an improvement | [New issue → 🛠️ Improvement](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
 | 🐛 report a bug | [New issue → 🐛 Bug report](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
+| 💡 add to the idea list | [IDEENLISTE.md](./IDEENLISTE.md) (fork & write) |
 | 💬 discuss / ask questions | [GitHub Discussions](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions) |
 | 🧑‍💼 join the team | [Team application](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new?template=team-bewerbung.yml) |
 | 📋 request a commission | [Request a commission](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new?template=auftrag.yml) |
@@ -219,6 +223,8 @@ Please do not submit content that violates GitHub's rules, attacks other people,
 | 🌱 [docs/ONBOARDING.md](./docs/ONBOARDING.md) | Getting started for newcomers |
 | 🧑‍💼 [docs/TEAM.md](./docs/TEAM.md) | Team roles and applications |
 | 📋 [docs/AUFTRAEGE.md](./docs/AUFTRAEGE.md) | Request commissions (websites, bots, ...) |
+| 💡 [IDEENLISTE.md](./IDEENLISTE.md) | Open idea list – add your own |
+| 🍴 [docs/FORK.md](./docs/FORK.md) | Fork & contribute (guide) |
 | 🌟 [COMMUNITY.md](./COMMUNITY.md) | Community principles and roles |
 | 🙌 [CONTRIBUTORS.md](./CONTRIBUTORS.md) | Recognition for all contributors |
 | 💬 [docs/DISCUSSIONS.md](./docs/DISCUSSIONS.md) | GitHub Discussions guide |
