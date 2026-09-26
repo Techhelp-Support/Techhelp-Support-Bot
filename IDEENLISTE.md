@@ -37,6 +37,9 @@ Alternativ kannst du deine Idee auch einfach als [Issue](https://github.com/Tech
 ### 💡 Ideen
 
 <!-- Trage deine Idee hier ein / Add your idea here -->
+* [ ] Server Builder
+* [ ] Bessere Verbindung 
+* [ ] Verbesserung am Musik Bot
 * [ ]
 * [ ]
 * [ ]
