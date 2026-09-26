@@ -19,14 +19,23 @@ jobs:
             if (!discussion) return;
 
             const body = [
-              '👋 Danke für deinen Beitrag und willkommen in der **TechHelp Support Bot** Community!',
+              '👋 **🇩🇪 Deutsch**',
               '',
-              'Ein paar kurze Hinweise:',
+              'Danke für deinen Beitrag und willkommen in der **TechHelp Support Bot** Community!',
               '- 🤝 Bitte bleib freundlich und sachlich (siehe Verhaltenskodex).',
               '- 🙋 Bei Fragen (Q&A) markiere gerne die hilfreichste Antwort als Lösung.',
               '- 🐛 Geht es um einen konkreten Fehler oder eine ausgearbeitete Idee? Dann passt ein Issue oft besser.',
               '',
-              'Gemeinsam besser. Gemeinsam entwickelt. 💙',
+              '---',
+              '',
+              '🇬🇧 **English**',
+              '',
+              'Thanks for your post and welcome to the **TechHelp Support Bot** community!',
+              '- 🤝 Please stay friendly and constructive (see the Code of Conduct).',
+              '- 🙋 In Q&A, feel free to mark the most helpful answer as the solution.',
+              '- 🐛 Is it a concrete bug or a fleshed-out idea? An issue is often a better fit.',
+              '',
+              'Gemeinsam besser. Gemeinsam entwickelt. / Better together. Built together. 💙',
             ].join('\n');
 
             await github.graphql(

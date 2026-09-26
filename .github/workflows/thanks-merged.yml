@@ -1,0 +1,38 @@
+name: 🎉 Danke bei Merge / Thanks on merge
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  thanks:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dank-Kommentar posten / Post a thank-you comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = [
+              '🎉 **🇩🇪 Deutsch**',
+              '',
+              'Dein Pull Request wurde gemergt – vielen Dank für deinen Beitrag zur **TechHelp Support Bot** Community! 💙',
+              'Möchtest du in der [Mitwirkenden-Liste](../blob/main/CONTRIBUTORS.md) erscheinen? Ein Maintainer kann dich per All-Contributors-Bot hinzufügen.',
+              '',
+              '---',
+              '',
+              '🇬🇧 **English**',
+              '',
+              'Your pull request has been merged – thank you for contributing to the **TechHelp Support Bot** community! 💙',
+              'Want to appear in the [contributors list](../blob/main/CONTRIBUTORS.md)? A maintainer can add you via the All Contributors bot.',
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body,
+            });

@@ -1,47 +1,43 @@
-title: "[Frage] "
+title: "[Frage / Question] "
 labels:
   - question
 body:
   - type: markdown
     attributes:
       value: |
-        ## 🙋 Fragen & Hilfe
+        ## 🙋 Fragen & Hilfe / Q&A
 
-        Du hast eine Frage zum TechHelp Support Bot? Stell sie hier – die Community und das Team helfen dir gerne weiter! 💙
-
-        > 💡 Tipp: Schau kurz, ob deine Frage schon beantwortet wurde.
+        🇩🇪 Stell deine Frage – die Community und das Team helfen gerne! Schau kurz, ob sie schon beantwortet wurde.
+        🇬🇧 Ask your question – the community and the team are happy to help! Check whether it's already answered.
 
   - type: textarea
     id: question
     attributes:
-      label: Deine Frage
-      description: Was möchtest du wissen?
-      placeholder: |
-        Wie kann ich ...?
+      label: Deine Frage / Your question
+      description: Was möchtest du wissen? / What would you like to know?
     validations:
       required: true
 
   - type: dropdown
     id: area
     attributes:
-      label: Bereich
-      description: Worum geht es?
+      label: Bereich / Area
+      description: Worum geht es? / What is it about?
       options:
-        - Ticket-System
+        - Ticket-System / Tickets
         - Moderation
-        - Verifizierung
+        - Verifizierung / Verification
         - Dashboard
-        - Weboberfläche
-        - Server-Konfiguration
-        - Discord-Integration
-        - Sonstiges
+        - Weboberfläche / Web interface
+        - Server-Konfiguration / Server configuration
+        - Discord-Integration / Discord integration
+        - Sonstiges / Other
     validations:
       required: false
 
   - type: textarea
     id: tried
     attributes:
-      label: Was hast du schon versucht?
-      description: Damit vermeiden wir Vorschläge, die du bereits ausprobiert hast.
+      label: Was hast du schon versucht? / What have you tried?
     validations:
       required: false

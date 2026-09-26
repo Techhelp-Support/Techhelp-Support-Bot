@@ -1,49 +1,45 @@
 <!--
-  Danke für deinen Beitrag zum TechHelp Support Bot! 💙
-  Bitte fülle die folgenden Abschnitte aus, damit wir deinen Pull Request schnell verstehen und prüfen können.
+  🇩🇪 Danke für deinen Beitrag zum TechHelp Support Bot! Bitte fülle die Abschnitte aus.
+  🇬🇧 Thanks for contributing to the TechHelp Support Bot! Please fill in the sections.
 -->
 
-## 📋 Was wurde geändert?
+## 📋 Was wurde geändert? / What changed?
 
-<!-- Beschreibe kurz und verständlich, was dieser Pull Request ändert. -->
-
-
-
-## 🎯 Warum wurde es geändert?
-
-<!-- Welches Problem wird gelöst? Verlinke gerne das zugehörige Issue, z. B. "Closes #123". -->
+<!-- Beschreibe kurz die Änderung. / Briefly describe the change. -->
 
 
 
-## 🧪 Was wurde getestet?
+## 🎯 Warum? / Why?
 
-<!-- Wie hast du sichergestellt, dass die Änderung funktioniert? -->
+<!-- Welches Problem wird gelöst? Verlinke das Issue, z. B. "Closes #123". / Which problem does it solve? Link the issue, e.g. "Closes #123". -->
 
 
 
-## 🏷️ Art der Änderung
+## 🧪 Was wurde getestet? / What was tested?
 
-<!-- Kreuze zutreffende Punkte mit [x] an. -->
+<!-- Wie hast du sichergestellt, dass es funktioniert? / How did you verify it works? -->
 
-- [ ] 🐛 Bugfix (behebt ein Problem)
-- [ ] ✨ Neue Funktion (fügt Funktionalität hinzu)
-- [ ] 🛠️ Verbesserung (verbessert bestehende Funktion)
-- [ ] 📚 Dokumentation
+
+
+## 🏷️ Art der Änderung / Type of change
+
+- [ ] 🐛 Bugfix
+- [ ] ✨ Neue Funktion / New feature
+- [ ] 🛠️ Verbesserung / Improvement
+- [ ] 📚 Dokumentation / Documentation
 - [ ] 🎨 Design / UI
-- [ ] ♻️ Refactoring (keine funktionale Änderung)
-- [ ] 🔧 Sonstiges
+- [ ] ♻️ Refactoring
+- [ ] 🔧 Sonstiges / Other
 
-## ✅ Checkliste
+## ✅ Checkliste / Checklist
 
-- [ ] Der Code funktioniert wie erwartet.
-- [ ] Bestehende Funktionen wurden nicht unnötig beschädigt.
-- [ ] Neue Funktionen wurden getestet.
-- [ ] Keine Zugangsdaten, Tokens oder API-Keys wurden veröffentlicht.
-- [ ] Notwendige Dokumentation wurde angepasst.
-- [ ] Ich habe den [Verhaltenskodex](../CODE_OF_CONDUCT.md) gelesen und akzeptiert.
+- [ ] Der Code funktioniert wie erwartet. / The code works as expected.
+- [ ] Bestehende Funktionen wurden nicht beschädigt. / Existing functionality isn't broken.
+- [ ] Neue Funktionen wurden getestet. / New functionality was tested.
+- [ ] Keine Zugangsdaten/Tokens veröffentlicht. / No credentials/tokens exposed.
+- [ ] Doku wurde angepasst. / Documentation was updated.
+- [ ] Ich habe den [Verhaltenskodex / Code of Conduct](../CODE_OF_CONDUCT.md) gelesen. / I have read the Code of Conduct.
 
-## 📎 Weitere Informationen
+## 📎 Weitere Informationen / Additional information
 
-<!-- Screenshots, Kontext oder Hinweise für die Reviewer. -->
-
-
+<!-- Screenshots, Kontext oder Hinweise für Reviewer. / Screenshots, context, or notes for reviewers. -->

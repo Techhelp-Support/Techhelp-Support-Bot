@@ -1,5 +1,5 @@
-name: 🐛 Fehler melden
-description: Melde einen Fehler oder Defekt im TechHelp Support Bot.
+name: 🐛 Fehler melden / Bug report
+description: Melde einen Fehler oder Defekt. / Report a bug or defect.
 title: "[BUG] "
 labels:
   - bug
@@ -7,79 +7,75 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🐛 Fehler melden
+        ## 🐛 Fehler melden / Bug report
 
-        Danke, dass du einen Fehler meldest! 🙏
-
-        Bitte fülle die folgenden Informationen so vollständig wie möglich aus. Je genauer dein Bericht ist, desto schneller können wir das Problem finden und beheben.
+        🇩🇪 Danke, dass du einen Fehler meldest! Bitte fülle die Felder so vollständig wie möglich aus.
+        🇬🇧 Thanks for reporting a bug! Please fill in the fields as completely as possible.
 
   - type: checkboxes
     id: checks
     attributes:
-      label: ✅ Vorab-Checks
-      description: Bitte bestätige die folgenden Punkte, bevor du fortfährst.
+      label: ✅ Vorab-Checks / Pre-checks
       options:
-        - label: Ich habe nach ähnlichen Issues gesucht und keinen passenden Bericht gefunden.
+        - label: Ich habe nach ähnlichen Issues gesucht. / I searched for similar issues.
           required: true
-        - label: Ich habe keine sensiblen Daten (Tokens, Passwörter, API-Keys) in diesem Bericht enthalten.
+        - label: Ich habe keine sensiblen Daten (Tokens, Passwörter) enthalten. / I have not included sensitive data (tokens, passwords).
           required: true
 
   - type: textarea
     id: problem
     attributes:
       label: 🔴 Problem
-      description: Beschreibe das Problem kurz und verständlich.
+      description: Beschreibe das Problem kurz. / Briefly describe the problem.
       placeholder: |
-        Der Bot ...
+        Der Bot ... / The bot ...
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: 🔁 Reproduktionsschritte
-      description: Wie kann der Fehler reproduziert werden?
+      label: 🔁 Reproduktionsschritte / Steps to reproduce
+      description: Wie kann der Fehler ausgelöst werden? / How can the bug be triggered?
       placeholder: |
-        1. Dashboard öffnen
-        2. Server auswählen
-        3. Ticket-Konfiguration öffnen
-        4. Einstellung speichern
-        5. Fehler tritt auf
+        1. Dashboard öffnen / Open the dashboard
+        2. Server auswählen / Select a server
+        3. Fehler tritt auf / The error occurs
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: ✅ Erwartetes Verhalten
-      description: Was sollte eigentlich passieren?
+      label: ✅ Erwartetes Verhalten / Expected behavior
+      description: Was sollte passieren? / What should happen?
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: ❌ Tatsächliches Verhalten
-      description: Was passiert stattdessen?
+      label: ❌ Tatsächliches Verhalten / Actual behavior
+      description: Was passiert stattdessen? / What happens instead?
     validations:
       required: true
 
   - type: dropdown
     id: area
     attributes:
-      label: 📦 Bereich
-      description: In welchem Bereich tritt der Fehler auf?
+      label: 📦 Bereich / Area
+      description: Wo tritt der Fehler auf? / Where does the bug occur?
       options:
-        - Ticket-System
+        - Ticket-System / Tickets
         - Moderation
-        - Verifizierung
+        - Verifizierung / Verification
         - Dashboard
-        - Weboberfläche
-        - Benachrichtigungen
-        - Server-Konfiguration
-        - Discord-Integration
+        - Weboberfläche / Web interface
+        - Benachrichtigungen / Notifications
+        - Server-Konfiguration / Server configuration
+        - Discord-Integration / Discord integration
         - Performance
-        - Sonstiges
+        - Sonstiges / Other
     validations:
       required: true
 
@@ -87,26 +83,23 @@ body:
     id: bot-version
     attributes:
       label: 🤖 Bot-Version
-      description: Welche Version des Bots nutzt du?
-      placeholder: "z. B. v1.2.3"
+      description: Welche Version nutzt du? / Which version do you use?
+      placeholder: "z. B. / e.g. v1.2.3"
 
   - type: input
     id: environment
     attributes:
-      label: 💻 Umgebung
-      description: Browser, Betriebssystem oder Discord-Client-Version.
-      placeholder: "z. B. Chrome 120, Windows 11, Discord Stable"
+      label: 💻 Umgebung / Environment
+      description: Browser, OS oder Discord-Client. / Browser, OS, or Discord client.
+      placeholder: "z. B. / e.g. Chrome 120, Windows 11"
 
   - type: textarea
     id: screenshots
     attributes:
-      label: 📎 Screenshots oder Logs
-      description: Füge Screenshots, Logs oder Fehlermeldungen hinzu. Bitte keine sensiblen Daten teilen.
-      placeholder: |
-        Screenshots oder Logs hier einfügen ...
+      label: 📎 Screenshots / Logs
+      description: Keine sensiblen Daten teilen. / Do not share sensitive data.
 
   - type: textarea
     id: additional
     attributes:
-      label: 💬 Zusätzliche Informationen
-      description: Weitere Kontextinformationen, Hinweise oder Ideen zur Lösung.
+      label: 💬 Zusätzliche Informationen / Additional information

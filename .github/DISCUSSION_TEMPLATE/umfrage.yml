@@ -1,0 +1,39 @@
+title: "[Umfrage / Poll] "
+labels:
+  - poll
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🗳️ Umfrage / Poll
+
+        🇩🇪 Schlage eine Abstimmung vor, um die Community zu einer Entscheidung zu befragen. Bitte in der Kategorie **Umfragen** eine echte GitHub-Poll anlegen.
+        🇬🇧 Propose a vote to ask the community for a decision. Please create an actual GitHub poll in the **Polls** category.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Worüber soll abgestimmt werden? / What should be voted on?
+      description: Formuliere die Frage klar. / State the question clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: options
+    attributes:
+      label: Mögliche Optionen / Possible options
+      description: Liste die Antwortmöglichkeiten auf. / List the answer options.
+      placeholder: |
+        - Option A
+        - Option B
+        - Option C
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Hintergrund / Background
+      description: Warum ist diese Entscheidung relevant? / Why does this decision matter?
+    validations:
+      required: false

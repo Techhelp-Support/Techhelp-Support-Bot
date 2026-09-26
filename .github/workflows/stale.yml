@@ -1,0 +1,48 @@
+name: 🧹 Stale Issues
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Alte Issues & PRs freundlich markieren / Gently mark stale issues & PRs
+        uses: actions/stale@v9
+        with:
+          days-before-stale: 60
+          days-before-close: 14
+          stale-issue-label: stale
+          stale-pr-label: stale
+          exempt-issue-labels: "planned,in-progress,pinned,security"
+          exempt-pr-labels: "in-progress,pinned"
+          stale-issue-message: >
+            🇩🇪 Dieses Issue war 60 Tage inaktiv und wurde als `stale` markiert.
+            Wenn es noch relevant ist, kommentiere bitte – sonst wird es in 14 Tagen geschlossen.
+
+
+            🇬🇧 This issue has been inactive for 60 days and was marked `stale`.
+            If it's still relevant, please comment – otherwise it will be closed in 14 days.
+          stale-pr-message: >
+            🇩🇪 Dieser Pull Request war 60 Tage inaktiv und wurde als `stale` markiert.
+            Bitte kommentiere, wenn du weiterarbeiten möchtest.
+
+
+            🇬🇧 This pull request has been inactive for 60 days and was marked `stale`.
+            Please comment if you'd like to continue.
+          close-issue-message: >
+            🇩🇪 Dieses Issue wurde wegen anhaltender Inaktivität geschlossen. Du kannst es jederzeit wieder öffnen. 💙
+
+
+            🇬🇧 This issue was closed due to continued inactivity. Feel free to reopen it anytime. 💙
+          close-pr-message: >
+            🇩🇪 Dieser Pull Request wurde wegen anhaltender Inaktivität geschlossen. Du kannst ihn jederzeit wieder öffnen. 💙
+
+
+            🇬🇧 This pull request was closed due to continued inactivity. Feel free to reopen it anytime. 💙

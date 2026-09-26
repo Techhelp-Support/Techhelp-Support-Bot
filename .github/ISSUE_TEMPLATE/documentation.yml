@@ -1,5 +1,5 @@
-name: 📚 Dokumentation
-description: Verbesserung, Ergänzung oder Korrektur der Dokumentation.
+name: 📚 Dokumentation / Documentation
+description: Verbesserung oder Korrektur der Dokumentation. / Improve or fix the documentation.
 title: "[DOCS] "
 labels:
   - documentation
@@ -7,41 +7,37 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 📚 Dokumentation
+        ## 📚 Dokumentation / Documentation
 
-        Danke für deinen Beitrag zur Dokumentation! 💙
-
-        Gute Dokumentation hilft der ganzen Community. Bitte beschreibe kurz, was verbessert werden soll.
+        🇩🇪 Danke für deinen Beitrag zur Dokumentation! Gute Doku hilft der ganzen Community.
+        🇬🇧 Thanks for contributing to the docs! Good documentation helps the whole community.
 
   - type: textarea
     id: issue
     attributes:
-      label: 📄 Dokumentationsproblem
-      description: Beschreibe, welches Dokument, welcher Abschnitt oder welches Beispiel unklar, falsch oder unvollständig ist.
+      label: 📄 Problem
+      description: Welcher Abschnitt ist unklar, falsch oder unvollständig? / Which section is unclear, wrong, or incomplete?
       placeholder: |
-        Die Anleitung zu ... ist unklar, weil ...
+        Die Anleitung zu ... ist unklar. / The guide on ... is unclear.
     validations:
       required: true
 
   - type: textarea
     id: proposed
     attributes:
-      label: 💡 Vorschlag
-      description: Wie sollte die Dokumentation verbessert werden?
-      placeholder: |
-        Bitte Abschnitt X ergänzen und Beispiel Y hinzufügen.
+      label: 💡 Vorschlag / Suggestion
+      description: Wie sollte die Doku verbessert werden? / How should the docs be improved?
     validations:
       required: true
 
   - type: input
     id: location
     attributes:
-      label: 📍 Betroffene Stelle
-      description: Datei oder Abschnitt, der angepasst werden soll.
-      placeholder: "z. B. README.md, CONTRIBUTING.md, docs/"
+      label: 📍 Betroffene Stelle / Affected location
+      description: Datei oder Abschnitt. / File or section.
+      placeholder: "z. B. / e.g. README.md, CONTRIBUTING.md, docs/"
 
   - type: textarea
     id: additional
     attributes:
-      label: 📎 Zusätzliche Hinweise
-      description: Weitere Informationen oder Verweise.
+      label: 📎 Zusätzliche Hinweise / Additional notes
