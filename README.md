@@ -7,6 +7,7 @@
 [![Website](https://img.shields.io/badge/🌐_Website-bot.techhelp--support.de-5865F2?style=for-the-badge)](https://bot.techhelp-support.de/)
 [![Support](https://img.shields.io/badge/🛟_Support-Hilfe_holen-2ecc71?style=for-the-badge)](https://bot.techhelp-support.de/support/)
 [![Discussions](https://img.shields.io/badge/💬_Discussions-mitreden-d4c5f9?style=for-the-badge)](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions)
+[![Buy Me a Coffee](https://img.shields.io/badge/☕_Buy_us_a_coffee-support-FFDD00?style=for-the-badge)](https://buymeacoffee.com/techhelp.support)
 
 ![Issues](https://img.shields.io/github/issues/Techhelp-Support/Techhelp-Support-Bot?style=flat-square&label=Issues)
 ![PRs](https://img.shields.io/github/issues-pr/Techhelp-Support/Techhelp-Support-Bot?style=flat-square&label=Pull%20Requests)
@@ -118,6 +119,12 @@ Egal ob große Idee, kleiner Verbesserungsvorschlag oder ein Tippfehler in der D
 - **Website:** https://bot.techhelp-support.de/
 - **Support:** https://bot.techhelp-support.de/support/
 - **News:** https://bot.techhelp-support.de/techhelp-support-news-2/
+- **☕ Buy us a coffee:** https://buymeacoffee.com/techhelp.support
+
+### ☕ Projekt unterstützen
+
+Der TechHelp Support Bot ist ein Herzensprojekt. Wenn er dir hilft, kannst du das Team mit einem Kaffee unterstützen – das hält die Entwicklung am Laufen. Danke! 💙
+👉 https://buymeacoffee.com/techhelp.support
 
 ---
 
@@ -222,6 +229,12 @@ Whether a big idea, a small suggestion, or a typo fix in the docs – **every co
 - **Website:** https://bot.techhelp-support.de/
 - **Support:** https://bot.techhelp-support.de/support/
 - **News:** https://bot.techhelp-support.de/techhelp-support-news-2/
+- **☕ Buy us a coffee:** https://buymeacoffee.com/techhelp.support
+
+### ☕ Support the project
+
+The TechHelp Support Bot is a labor of love. If it helps you, you can support the team with a coffee – it keeps development going. Thank you! 💙
+👉 https://buymeacoffee.com/techhelp.support
 
 ---
 

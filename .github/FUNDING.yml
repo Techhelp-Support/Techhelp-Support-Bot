@@ -1,7 +1,7 @@
-# TechHelp Support Bot – Unterstützungsmöglichkeiten
-# Trage hier die passenden Kanäle ein, über die die Community das Projekt unterstützen kann.
-# Nicht genutzte Zeilen einfach entfernen oder auskommentiert lassen.
+# TechHelp Support Bot – Unterstützungsmöglichkeiten / Ways to support
+# Diese Datei zeigt auf GitHub einen "Sponsor"-Button. / This file shows a "Sponsor" button on GitHub.
 
-# github: [ techhelp-support ]
-# ko_fi: techhelp
-# custom: [ "https://bot.techhelp-support.de/" ]
+buy_me_a_coffee: techhelp.support
+custom:
+  - "https://buymeacoffee.com/techhelp.support"
+  - "https://bot.techhelp-support.de/"
