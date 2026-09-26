@@ -28,6 +28,11 @@ Super! Nutze dafür die passenden Templates: **💡 Neue Idee** oder **🛠️ V
 
 **Bitte melde Sicherheitslücken niemals über ein öffentliches Issue.** Wie du sie sicher meldest, steht in der [SECURITY.md](./SECURITY.md).
 
+### ☕ Das Projekt unterstützen
+
+Der TechHelp Support Bot wird mit viel Herzblut entwickelt. Wenn du das Team unterstützen möchtest, freuen wir uns über einen Kaffee:
+👉 https://buymeacoffee.com/techhelp.support
+
 ### 🔗 Nützliche Links
 
 | Anliegen | Link |
@@ -36,6 +41,7 @@ Super! Nutze dafür die passenden Templates: **💡 Neue Idee** oder **🛠️ V
 | 🛟 Support | https://bot.techhelp-support.de/support/ |
 | 📰 News | https://bot.techhelp-support.de/techhelp-support-news-2/ |
 | 💬 Discussions | https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions |
+| ☕ Buy us a coffee | https://buymeacoffee.com/techhelp.support |
 
 ---
 
@@ -63,6 +69,11 @@ Great! Use the matching templates: **💡 New idea** or **🛠️ Improvement**.
 
 **Never report security issues via a public issue.** See [SECURITY.md](./SECURITY.md) for how to report them safely.
 
+### ☕ Support the project
+
+The TechHelp Support Bot is developed with a lot of passion. If you'd like to support the team, we'd love a coffee:
+👉 https://buymeacoffee.com/techhelp.support
+
 ### 🔗 Useful links
 
 | Topic | Link |
@@ -71,6 +82,7 @@ Great! Use the matching templates: **💡 New idea** or **🛠️ Improvement**.
 | 🛟 Support | https://bot.techhelp-support.de/support/ |
 | 📰 News | https://bot.techhelp-support.de/techhelp-support-news-2/ |
 | 💬 Discussions | https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions |
+| ☕ Buy us a coffee | https://buymeacoffee.com/techhelp.support |
 
 ---
 
