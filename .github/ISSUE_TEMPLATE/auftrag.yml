@@ -1,0 +1,106 @@
+name: 📋 Auftrag anfragen / Request a commission
+description: Frage einen bezahlten oder kostenlosen Auftrag an (Website, Bot, Tool, ...). / Request a paid or free commission (website, bot, tool, ...).
+title: "[AUFTRAG] "
+labels:
+  - commission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📋 Auftrag anfragen / Request a commission
+
+        🇩🇪 Du brauchst eine Website, einen Bot oder ein anderes Projekt? Beschreibe dein Vorhaben. Das Team meldet sich mit einer Einschätzung. Details in [docs/AUFTRAEGE.md](../blob/main/docs/AUFTRAEGE.md).
+        🇬🇧 Need a website, a bot, or another project? Describe your idea. The team will get back to you with an estimate. Details in [docs/AUFTRAEGE.md](../blob/main/docs/AUFTRAEGE.md).
+
+        > ⚠️ 🇩🇪 Bitte **keine** Zugangsdaten, Tokens oder Passwörter in dieses Issue schreiben.
+        > ⚠️ 🇬🇧 Please do **not** put credentials, tokens, or passwords into this issue.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: 🧩 Art des Auftrags / Type of commission
+      description: Worum geht es? / What is it about?
+      options:
+        - Website
+        - Discord-Bot
+        - Bot (andere Plattform) / Bot (other platform)
+        - Web-App / Dashboard
+        - Automatisierung / Automation
+        - Design / Grafik / Graphics
+        - Beratung / Consulting
+        - Sonstiges / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Beschreibung / Description
+      description: Was genau brauchst du? Je mehr Details, desto besser. / What exactly do you need? The more detail, the better.
+      placeholder: |
+        Ich hätte gerne ... / I'd like ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: ✨ Gewünschte Funktionen / Desired features
+      description: Liste die wichtigsten Funktionen auf. / List the key features.
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: budget
+    attributes:
+      label: 💶 Budget
+      description: Grobe Vorstellung? / Rough idea?
+      options:
+        - Noch offen / Not sure yet
+        - Kostenlos / Free (Community)
+        - Unter 50 € / Under €50
+        - 50–150 €
+        - 150–500 €
+        - Über 500 € / Over €500
+        - Verhandlungssache / Negotiable
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: ⏰ Zeitrahmen / Timeframe
+      description: Bis wann brauchst du es? / By when do you need it?
+      placeholder: "z. B. / e.g. in 2 Wochen / in 2 weeks, flexibel / flexible"
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: 💬 Kontakt / Contact
+      description: Wie erreichen wir dich? (Discord empfohlen) / How can we reach you? (Discord recommended)
+      placeholder: "z. B. / e.g. Discord: username"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Weitere Informationen / Additional information
+      description: Beispiele, Referenzen oder sonstige Hinweise. / Examples, references, or other notes.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: ✅ Bestätigung / Confirmation
+      options:
+        - label: Ich habe keine sensiblen Daten (Tokens, Passwörter) angegeben. / I have not included sensitive data (tokens, passwords).
+          required: true
+        - label: Mir ist klar, dass eine Anfrage keine Zusage ist. / I understand a request is not a guarantee.
+          required: true
