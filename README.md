@@ -33,6 +33,7 @@ Der zentrale Ort für **Ideen, Verbesserungen, Fehlerberichte und den Austausch*
 | 🐛 einen Fehler melden | [Neues Issue → 🐛 Fehler melden](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
 | 💬 diskutieren / Fragen stellen | [GitHub Discussions](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions) |
 | 🧑‍💼 dem Team beitreten | [Team-Bewerbung](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new?template=team-bewerbung.yml) |
+| 📋 einen Auftrag anfragen | [Auftrag anfragen](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new?template=auftrag.yml) |
 | 🤝 mitwirken | [CONTRIBUTING.md](./CONTRIBUTING.md) |
 | 🛟 Support brauchen | [SUPPORT.md](./SUPPORT.md) |
 | 🔐 eine Sicherheitslücke melden | [SECURITY.md](./SECURITY.md) |
@@ -103,6 +104,7 @@ Bitte reiche keine Inhalte ein, die gegen die GitHub-Regeln verstoßen, andere P
 | 🤝 [CONTRIBUTING.md](./CONTRIBUTING.md) | Wie du beiträgst – Ideen, Fehler, Code |
 | 🌱 [docs/ONBOARDING.md](./docs/ONBOARDING.md) | Einstieg für neue Mitwirkende |
 | 🧑‍💼 [docs/TEAM.md](./docs/TEAM.md) | Team-Rollen und Bewerbung |
+| 📋 [docs/AUFTRAEGE.md](./docs/AUFTRAEGE.md) | Aufträge anfragen (Websites, Bots, ...) |
 | 🌟 [COMMUNITY.md](./COMMUNITY.md) | Community-Prinzipien und Rollen |
 | 🙌 [CONTRIBUTORS.md](./CONTRIBUTORS.md) | Anerkennung aller Mitwirkenden |
 | 💬 [docs/DISCUSSIONS.md](./docs/DISCUSSIONS.md) | Guide für GitHub Discussions |
@@ -145,6 +147,7 @@ This is the central place for **ideas, improvements, bug reports, and discussion
 | 🐛 report a bug | [New issue → 🐛 Bug report](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new/choose) |
 | 💬 discuss / ask questions | [GitHub Discussions](https://github.com/Techhelp-Support/Techhelp-Support-Bot/discussions) |
 | 🧑‍💼 join the team | [Team application](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new?template=team-bewerbung.yml) |
+| 📋 request a commission | [Request a commission](https://github.com/Techhelp-Support/Techhelp-Support-Bot/issues/new?template=auftrag.yml) |
 | 🤝 contribute | [CONTRIBUTING.md](./CONTRIBUTING.md) |
 | 🛟 get support | [SUPPORT.md](./SUPPORT.md) |
 | 🔐 report a security issue | [SECURITY.md](./SECURITY.md) |
@@ -215,6 +218,7 @@ Please do not submit content that violates GitHub's rules, attacks other people,
 | 🤝 [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute – ideas, bugs, code |
 | 🌱 [docs/ONBOARDING.md](./docs/ONBOARDING.md) | Getting started for newcomers |
 | 🧑‍💼 [docs/TEAM.md](./docs/TEAM.md) | Team roles and applications |
+| 📋 [docs/AUFTRAEGE.md](./docs/AUFTRAEGE.md) | Request commissions (websites, bots, ...) |
 | 🌟 [COMMUNITY.md](./COMMUNITY.md) | Community principles and roles |
 | 🙌 [CONTRIBUTORS.md](./CONTRIBUTORS.md) | Recognition for all contributors |
 | 💬 [docs/DISCUSSIONS.md](./docs/DISCUSSIONS.md) | GitHub Discussions guide |

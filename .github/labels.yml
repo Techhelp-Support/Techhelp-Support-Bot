@@ -57,6 +57,9 @@
 - name: team-application
   color: "c2e0c6"
   description: "🧑‍💼 Team-Bewerbung / Team application"
+- name: commission
+  color: "fbca04"
+  description: "📋 Auftragsanfrage / Commission request"
 
 # --- Workflow-Labels ---
 - name: stale
