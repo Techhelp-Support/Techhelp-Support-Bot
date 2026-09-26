@@ -1,0 +1,112 @@
+name: 🧑‍💼 Team-Bewerbung / Team application
+description: Bewirb dich für einen Platz im TechHelp-Team. / Apply for a spot on the TechHelp team.
+title: "[TEAM] "
+labels:
+  - team-application
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧑‍💼 Team-Bewerbung / Team application
+
+        🇩🇪 Schön, dass du dich einbringen möchtest! Bitte fülle die Felder aus. Es gibt keine „falschen" Antworten – sei einfach ehrlich. Rollen und Ablauf findest du in [docs/TEAM.md](../blob/main/docs/TEAM.md).
+        🇬🇧 Great that you want to get involved! Please fill in the fields. There are no "wrong" answers – just be honest. Roles and process are in [docs/TEAM.md](../blob/main/docs/TEAM.md).
+
+  - type: input
+    id: name
+    attributes:
+      label: 🙋 Name / Nickname
+      description: Wie sollen wir dich nennen? / What should we call you?
+    validations:
+      required: true
+
+  - type: input
+    id: discord
+    attributes:
+      label: 💬 Discord
+      description: Dein Discord-Benutzername für Rückfragen. / Your Discord username for follow-up.
+      placeholder: "z. B. / e.g. username"
+    validations:
+      required: true
+
+  - type: input
+    id: age
+    attributes:
+      label: 🎂 Alter (optional) / Age (optional)
+      description: Nur angeben, wenn du möchtest. / Only if you'd like to share.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: 🎯 Gewünschte Rolle / Desired role
+      description: Wofür möchtest du dich bewerben? / What would you like to apply for?
+      options:
+        - Moderation
+        - Support / Helfer / Helper
+        - Entwicklung / Development
+        - Design / UI
+        - Dokumentation / Documentation
+        - Community-Management
+        - Sonstiges / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: 🧰 Erfahrung / Experience
+      description: Welche relevante Erfahrung bringst du mit? / What relevant experience do you have?
+      placeholder: |
+        Ich habe bereits ... / I have already ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 💡 Motivation
+      description: Warum möchtest du ins Team? / Why do you want to join the team?
+    validations:
+      required: true
+
+  - type: input
+    id: availability
+    attributes:
+      label: ⏰ Verfügbarkeit / Availability
+      description: Wie viel Zeit kannst du ungefähr investieren? / Roughly how much time can you invest?
+      placeholder: "z. B. / e.g. 3–5 h / Woche / week"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: languages
+    attributes:
+      label: 🗣️ Sprachen / Languages
+      description: Welche Sprachen sprichst du? / Which languages do you speak?
+      multiple: true
+      options:
+        - Deutsch / German
+        - Englisch / English
+        - Andere / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Weitere Informationen / Additional information
+      description: Alles, was du noch erwähnen möchtest. / Anything else you'd like to mention.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: ✅ Bestätigung / Confirmation
+      options:
+        - label: Ich habe den Verhaltenskodex gelesen und akzeptiere ihn. / I have read and accept the Code of Conduct.
+          required: true
+        - label: Meine Angaben sind wahrheitsgemäß. / My information is truthful.
+          required: true
