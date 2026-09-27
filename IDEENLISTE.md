@@ -72,10 +72,13 @@ Diese Punkte hat das Team selbst auf dem Zettel:
 > Hier ist dein Platz! Trage deine Idee einfach als neue Zeile ein.
 > Format: `* [ ] **Titel** – kurze Beschreibung (@deinname)`
 
-* [ ] **Beispiel: Antwortzeit-Befehl** – ein `/ping`-Befehl zeigt an, wie schnell der Bot reagiert *(Beispiel – gerne stehen lassen oder ersetzen)*
-* [ ]
-* [ ]
-* [ ]
+* [ ] **Server Builder** – Funktion zum automatischen Aufsetzen/Einrichten eines Servers
+* [ ] **Bessere Verbindung** – Stabilität und Verbindungsqualität verbessern
+* [ ] **Verbesserung am Musik-Bot** – den Musik-Bot überarbeiten und verbessern
+* [ ] **Ticket-Übernahme: Schreibrechte** – wenn ein Supporter ein Ticket übernommen hat, sollen weiterhin nur der Supporter **und** der Ersteller reinschreiben können
+* [ ] **`.no_news` Befehl** – neuer Befehl `.no_news`
+* [ ] **`.nextcloud_give` Befehl** – neuer Befehl `.nextcloud_give`
+* [ ] **`.bot_server` Befehl** – neuer Befehl `.bot_server`
 * [ ]
 * [ ]
 
@@ -164,10 +167,13 @@ Things the team already has on its list:
 > This is your space! Just add your idea as a new line.
 > Format: `* [ ] **Title** – short description (@yourname)`
 
-* [ ] **Example: response-time command** – a `/ping` command shows how fast the bot responds *(example – feel free to keep or replace)*
-* [ ]
-* [ ]
-* [ ]
+* [ ] **Server builder** – feature to automatically set up / configure a server
+* [ ] **Better connection** – improve stability and connection quality
+* [ ] **Music bot improvements** – rework and improve the music bot
+* [ ] **Ticket takeover: write access** – after a supporter takes over a ticket, only the supporter **and** the creator should still be able to write in it
+* [ ] **`.no_news` command** – new command `.no_news`
+* [ ] **`.nextcloud_give` command** – new command `.nextcloud_give`
+* [ ] **`.bot_server` command** – new command `.bot_server`
 * [ ]
 * [ ]
 
