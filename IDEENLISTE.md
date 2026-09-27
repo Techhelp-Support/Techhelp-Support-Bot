@@ -80,7 +80,6 @@ Diese Punkte hat das Team selbst auf dem Zettel:
 * [ ] **`.nextcloud_give` Befehl** – neuer Befehl `.nextcloud_give`
 * [ ] **`.bot_server` Befehl** – neuer Befehl `.bot_server`
 * [ ]
-* [ ]
 
 ### 🐛 Bekannte Kleinigkeiten
 
