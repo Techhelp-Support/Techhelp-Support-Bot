@@ -4,9 +4,10 @@ This roadmap outlines the planned direction for the TechHelp Support Bot communi
 
 ## Current Status
 
-- Repository setup and documentation are underway
-- Community contribution workflows are being established
-- Issue templates and project structure are being finalized
+- Core community documentation is in place (bilingual DE/EN)
+- Issue and discussion templates are live, including team applications and commissions
+- Automation (welcome, labeling, stale, thanks-on-merge) is set up
+- Next up: activating Discussions and a public project board on GitHub
 
 ## Planned
 
@@ -35,11 +36,15 @@ This roadmap outlines the planned direction for the TechHelp Support Bot communi
 - Onboarding guide, FAQ, and feature-voting guide
 - Contributor recognition setup (All Contributors)
 - Idea, improvement, bug, and documentation issue templates (GitHub form format)
+- Team application template and role overview (`docs/TEAM.md`)
+- Commission request template and guide (`docs/AUFTRAEGE.md`)
+- Open community idea list (`IDEENLISTE.md`) with fork guide (`docs/FORK.md`)
 - Discussion templates (ideas, Q&A, showcase, general, poll)
 - Pull request template
 - Automation: welcome workflow, auto-labeler, label sync, stale bot, thanks-on-merge
 - Central label definition
 - Discussions guide and welcome/introduction post templates
+- Buy Me a Coffee support link and sponsor button
 - Initial repository documentation structure established
 
 ## Future Ideas
