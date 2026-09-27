@@ -23,6 +23,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Automation: stale bot (`stale.yml`) and thanks-on-merge (`thanks-merged.yml`)
 - Discussion welcome workflow (`welcome-discussion.yml`)
 - Community and workflow labels (showcase, poll, stale, pinned, security)
+- Team application: issue template and `docs/TEAM.md` (roles + process)
+- Commission requests: issue template and `docs/AUFTRAEGE.md`
+- Open community idea list `IDEENLISTE.md` with fork guide `docs/FORK.md`
+- Buy Me a Coffee support link (`FUNDING.yml`, README badge, SUPPORT.md)
+- `team-application` and `commission` labels
 
 ### Changed
 - Improved project structure for community collaboration
